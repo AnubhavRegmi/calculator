@@ -1,0 +1,116 @@
+html {
+    box-sizing: border-box;
+    height: 100%
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    align-items: center;
+    background: linear-gradient(320deg, #932811, #138348, #082E5C);
+    display: flex;
+    height: inherit;
+    justify-content: center;
+}
+
+.view {
+    backdrop-filter: blur(5.5px);
+    -webkit-backdrop-filter: blur(5.5px);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(35, 35, 35, 0.1);
+    color: #232323;
+    backdrop-filter: blur(4px);
+    -webkit-backdrop-filter: blur(4px);
+    background: rgba(3, 1, 1, 0.859);
+    border: 1px solid rgba(255, 255, 255, 0.34);
+    flex-basis: 400px;
+    height: 540px;
+    padding: 20px 35px;
+
+}
+
+.main {
+    backdrop-filter: blur(5.5px);
+    -webkit-backdrop-filter: blur(5.5px);
+    background: rgba(225, 225, 225, 0.75);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 15px;
+    box-shadow: 0 4px 30px rgba(25, 25, 25, 0.1);
+    color: #3311b9;
+    text-align: right;
+    text-decoration: solid;
+    /**/
+    font-size: 30px;
+    overflow: auto;
+    padding: 15px;
+    width: 320px;
+}
+
+.number {
+    display: flex;
+    justify-content: space-between;
+    margin: 15% 0;
+
+}
+
+.button {
+    backdrop-filter: blur(5.5px);
+    -webkit-backdrop-filter: blur(5.5px);
+    background: rgba(225, 225, 225, 0.75);
+    border: 1px dotted rgba(35, 35, 35, 0.01);
+    border-radius: 15px;
+    box-shadow: 0 4px 30px rgba(35, 35, 35, 0.1);
+    color: #232323;
+    flex-basis: 21%;
+    font-family: sans-serif;
+    font-size: 150%;
+    /*24px*/
+    height: 35px;
+
+}
+
+.button:last-child {
+    backdrop-filter: blur(5.5px);
+    -webkit-backdrop-filter: blur(5.5px);
+    background: rgba(255, 255, 255, 0.75);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 15px;
+    box-shadow: 0 4px 30px rgba(35, 35, 35, 0.1);
+    color: aliceblue;
+    background: orange;
+
+}
+
+.button:hover {
+    background-color: #7c685455;
+    color: black;
+    box-shadow: 0 0.5em 0.5em -0.4em grey;
+    transform: translateY(-0.10em);
+    transition: all 0.3s;
+
+}
+
+.button:last-child:hover {
+    background-color: lightyellow;
+    color: inherit;
+    box-shadow: 0 0.5em 0.5em -0.4em yellow;
+    transform: translateY(-0.10em);
+    transition: all 0.3s;
+
+}
+
+.double {
+    flex-basis: 41%;
+    box-sizing: border-box;
+    height: 50px;
+}
+
+.triple {
+    flex-basis: 35%;
+}
